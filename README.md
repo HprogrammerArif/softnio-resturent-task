@@ -1,4 +1,5 @@
-LIVE LINK: [https://food-cart-task-gilt.vercel.app/]
+LIVE LINK: [https://softnio-ffe45.web.app]
+
 SERVER-REPO: https://github.com/HprogrammerArif/softnio-server
 
 FEATURES:
