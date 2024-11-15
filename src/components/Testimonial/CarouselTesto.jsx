@@ -13,7 +13,7 @@ import tree from "../../assets/images/tree.png";
 
 export default function CarouselTesto() {
   return (
-    <div className=" p-4 relative overflow-x-hidden ">
+    <div className=" p-4 relative overflow-x-hidden mt-6 md:mt-12">
       
       <div className="hidden md:block absolute bottom-52 -left-44 z-20 ">
         <img className="w-60" src={tomato} alt="" />

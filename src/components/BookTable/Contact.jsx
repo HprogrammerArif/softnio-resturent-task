@@ -39,7 +39,7 @@ const Contact = () => {
   };
   return (
     
-<div className=' py-6 md:p-6 bg-cover bg-center mb-12' style={{ backgroundImage: `url(${bookTable})` }}>
+<div className=' py-6 md:p-6 bg-cover bg-center my-12' style={{ backgroundImage: `url(${bookTable})` }}>
   
 <div className="grid max-w-screen-xl grid-cols-1 gap-8 px-8  mx-auto rounded-lg md:grid-cols-2 md:px-12 lg:px-16 xl:px-32 text-gray-100 my-12">
        

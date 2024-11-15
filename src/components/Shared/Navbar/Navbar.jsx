@@ -17,6 +17,7 @@ const Navbar = () => {
             {/* Logo */}
 
             <div className="flex items-center gap-6">
+
               <Link className="flex items-center gap-3" to="/">
                 <svg
                   width="47"
@@ -107,7 +108,7 @@ const Navbar = () => {
 
                 <div className="hidden md:block text-slate-900">
                   {/* {!user && ( */}
-                  <Link className=" cursor-pointer bg-[#FEBF00] hover:text-slate-100 hover:bg-red-900 py-3 px-4 text-sm font-semibold transition">
+                  <Link to="/contact" className=" cursor-pointer bg-[#FEBF00] hover:text-slate-100 hover:bg-red-900 py-3 px-4 text-sm font-semibold transition">
                     BOOK A TABLE
                   </Link>
 
