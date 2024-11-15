@@ -10,7 +10,10 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@emailjs/browser": "^4.4.1",
     "@headlessui/react": "^2.0.3",
+    "@relume_io/relume-tailwind": "^0.7.0",
+    "@relume_io/relume-ui": "^0.7.0",
     "@stripe/react-stripe-js": "^2.7.1",
     "@stripe/stripe-js": "^3.4.0",
     "@tanstack/react-query": "^5.36.0",
@@ -27,13 +30,16 @@
     "react-hot-toast": "^2.4.1",
     "react-icons": "^5.2.1",
     "react-router-dom": "^6.23.1",
-    "react-spinners": "^0.13.8"
+    "react-spinners": "^0.13.8",
+    "react-tabs": "^6.0.2",
+    "swiper": "^11.1.14"
   },
   "devDependencies": {
     "@types/react": "^18.2.66",
     "@types/react-dom": "^18.2.22",
     "@vitejs/plugin-react": "^4.2.1",
     "autoprefixer": "^10.4.19",
+    "daisyui": "^4.12.14",
     "eslint": "^8.57.0",
     "eslint-plugin-react": "^7.34.1",
     "eslint-plugin-react-hooks": "^4.6.0",
