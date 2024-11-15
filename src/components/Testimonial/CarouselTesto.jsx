@@ -13,20 +13,21 @@ import tree from "../../assets/images/tree.png";
 
 export default function CarouselTesto() {
   return (
-    <div className=" p-4 relative mx-12">
+    <div className=" p-4 relative overflow-x-hidden ">
       
-      <div className="hidden md:block absolute bottom-36 -left-48 z-20 ">
+      <div className="hidden md:block absolute bottom-52 -left-44 z-20 ">
         <img className="w-60" src={tomato} alt="" />
       </div>
-      <div className="hidden md:block absolute bottom-44 -right-32 rotate-45">
+      
+      <div className="hidden md:block absolute bottom-32 -right-28 rotate-45">
         <img className="w-60" src={tree} alt="" />
       </div>
 
 
-      <div className="mx-20 pb-10 ">
-        <div className=" absolute">
+      <div className="md:mx-28 pb-10 ">
+        <div className=" absolute ">
           <p className="font-bold text-red-600">Crispy, Every Bite Taste</p>
-          <h2 className="font-bold text-3xl uppercase">
+          <h2 className="font-bold text-3xl uppercase ">
             What Some of my Customers Say
           </h2>
         </div>

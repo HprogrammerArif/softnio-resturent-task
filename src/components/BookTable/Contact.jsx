@@ -1,5 +1,5 @@
 import  { useState } from 'react';
-// import emailjs from 'emailjs-com';
+import emailjs from 'emailjs-com';
 import toast, { Toaster } from 'react-hot-toast';
 import bookTable from "../../assets/images/bookTable.jpg"
 
@@ -39,7 +39,7 @@ const Contact = () => {
   };
   return (
     
-<div className=' p-6 bg-cover bg-center mb-12' style={{ backgroundImage: `url(${bookTable})` }}>
+<div className=' py-6 md:p-6 bg-cover bg-center mb-12' style={{ backgroundImage: `url(${bookTable})` }}>
   
 <div className="grid max-w-screen-xl grid-cols-1 gap-8 px-8  mx-auto rounded-lg md:grid-cols-2 md:px-12 lg:px-16 xl:px-32 text-gray-100 my-12">
        
@@ -47,6 +47,8 @@ const Contact = () => {
         <h4 className='font-bold text-xl text-red-700'>Book Now</h4>
         <h2 className='font-bold text-2xl md:text-4xl uppercase'>Book Your Table</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime nam nulla beatae quasi. Debitis aliquam velit aliquid nisi reiciendis perferendis?</p>
+          
+          <div className='grid gap-6 grid-cols-1 md:grid-cols-2'>
           <div>
             <input
               id="name"
@@ -81,6 +83,7 @@ const Contact = () => {
               onChange={handleChange}
             />
           </div>
+          
           <div>
             
             <input
@@ -93,6 +96,8 @@ const Contact = () => {
               onChange={handleChange}
             />
           </div>
+          </div>
+
           <div>
             
             <textarea

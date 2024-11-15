@@ -8,7 +8,7 @@ import CarouselTesto from '../../components/Testimonial/CarouselTesto'
 
 const Home = () => {
   return (
-    <div>
+    <div >
       <Helmet>
         <title>Softnio | Homes</title>
       </Helmet>
